@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favico.ico"/>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
+
+
+		<link href="css/styles.css" rel="stylesheet">
+
+        <title>Arihant Bansal</title>
+
+    </head>
+    <body style="overflow: hidden;">
+        <header class="l-header">
+            <nav class="nav bd-grid ">
+                <div>
+                    <a href="#" class="nav__logo"><img src="img/logo.png"></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <section id="contact" class="contact-section pt-130">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6 col-xl-5">
+						<div class="section-title text-center mb-60">
+							<h1 class="mb-25 animate__animated animate__fadeInDown" data-animate__animated-delay=".2s">Get In Touch</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="contact-wrapper animate__animated animate__fadeInUp" data-animate__animated-delay=".2s">
+							<form action="#" method="POST" id="contact-form" class="contact-form" onsubmit="greet(); return false;">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="single-form">
+											<input type="text" name="name" id="name" class="form-input" placeholder="Your Name">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="single-form">
+											<input type="email" name="email" id="email" class="form-input" placeholder="Your E-mail">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="single-form">
+											<input type="text" name="subject" id="subject" class="form-input" placeholder="Subject">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="single-form">
+											<input type="text" name="number" id="number" class="form-input" placeholder="Number">
+										</div>
+									</div>
+
+									<div class="col-md-12">
+										<div class="single-form">
+											<textarea name="message" id="message" class="form-input" rows="7" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="submit-btn">
+											<button class="main-btn btn-hover btn btn-secondary rounded-pill" type="submit">Submit Message</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="contact-img animate__animated fadeInUp" data-animate__animated-delay=".5s">
+							<img src="img/contact.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <div class="custom-shape-divider-bottom-1607104584">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
